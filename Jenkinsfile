@@ -1,5 +1,5 @@
 pipeline {
-	agent any
+	agent Jenkins-Slave-1
 	stages {
 		stage('---clean---'){
 			steps {
